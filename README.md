@@ -1,5 +1,7 @@
 # ⏱️ Timer Challenge Game
 
+![Timer Challenge Game](src/assets/image.png)
+
 A fun, interactive React-based timer challenge game where players test their timing skills across multiple difficulty levels. Built with modern React features including refs, useImperativeHandle, and custom components.
 
 ## 🎮 Game Overview
