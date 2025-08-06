@@ -15,7 +15,7 @@ export default function ResultModal({ref, targetTime, remainingTime, onReset }) 
         };
     });
 
-    return <dialog className="result-modal" ref={dialogRef}>
+    return <dialog className="result-modal" ref={dialogRef} onClose={onReset}>
         {userLost && <h2>You Lost</h2>}
         {!userLost && <h2>Your Score: {score}</h2>}
         <p>The Target Time was <strong>{ targetTime } seconds.</strong></p>
